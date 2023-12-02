@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>|Formulario</title>
+</head>
+<body>
+    <section>
+        <h2>Contato</h2>
+        <form action="https://api.staticforms.xyz/submit"method="post">
+            <label>Nome:</label>
+            <input type="text" nome= "Nome" placeholder=" Digite seu nome">
+            <label>Email:</label>
+            <input type="text" email="Email" placeholder="Digite seu Email">
+            <label >Telefone:</label>
+            <input type="text" telefone="Telefone" placeholder="Digite seu telefone">
+            <label>Mensagem:</label>
+            <textarea name="Mensagem"cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+            <button type="submit">Enviar</button>
+
+            <input type="hidden" name="accessKey" value="c4477d1b-3576-4a03-8bc8-cdfd6ee7dce6">
+            <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/redirecionamento.html">
+
+            <script>
+                window.alert("Os dados inseridos será enviados para o meu email pessoal")
+            </script>
+
+        
+    </section>
+</body>
+</html>
